@@ -1,6 +1,4 @@
 **Biografía de Donoban Peralta: Demostración de HTML y CSS**
-¡Bienvenido a la página web de Donoban Peralta!
-
 Sobre Mí
 ¡Hola! Soy Donoban. Actualmente, tengo 18 años y estoy estudiando Ingeniería de Sistemas.
 
