@@ -1,0 +1,108 @@
+/* Estilo básico del cuerpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('file:///C:/Users/Dono/Desktop/MIO/Programacion%202024/Donoban/650688.png'); /* Imagen de fondo */
+    background-size: cover; /* Ajuste para cubrir todo el fondo */
+    background-position: center; /* Centrar la imagen */
+    color: #e0e0e0;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Estilo para el primer encabezado centrado */
+h3:first-of-type {
+    text-align: center;
+    color: #ff0000; /* Rojo */
+    border-bottom: 2px solid #ff0000; /* Borde rojo */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+/* Estilo para los otros encabezados */
+h3 {
+    color: #ff0000; /* Rojo */
+    border-bottom: 2px solid #ff0000; /* Borde rojo */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+/* Estilo para los párrafos */
+p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* Estilo para los contenedores div */
+div {
+    margin: 20px 10%;
+    padding: 20px;
+    background: #1e1e1e; /* Fondo oscuro para los contenedores */
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5); /* Sombra con tono rojo */
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.7); /* Sombra más intensa en hover */
+}
+
+/* Estilo para las listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #2a2a2a; /* Fondo ligeramente más claro para los elementos de lista */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+ul li:hover {
+    background: #3a3a3a; /* Fondo más claro en hover */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #ff0000; /* Rojo */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff6347; /* Tomate */
+    text-decoration: underline;
+}
+
+/* Estilo para los botones */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff0000; /* Rojo */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #ff6347; /* Tomate */
+    transform: scale(1.05);
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
